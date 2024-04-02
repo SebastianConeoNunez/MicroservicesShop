@@ -15,6 +15,7 @@ public class SecurityConfig  {
 
         http.authorizeRequests(authorizeHttpRequests->{
                             authorizeHttpRequests
+                                    .requestMatchers("/actuator/prometheus").permitAll()
                                     .anyRequest().authenticated();
                         })
                 .oauth2ResourceServer((oauth2) -> oauth2.jwt(Customizer.withDefaults()));

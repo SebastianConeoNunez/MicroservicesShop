@@ -1,5 +1,14 @@
+com\aplicationMicroservice\orderservice\Model\Order.class
 com\aplicationMicroservice\orderservice\Event\OrderPlaceEvent.class
 com\aplicationMicroservice\orderservice\dto\InventoryResponse.class
+com\aplicationMicroservice\orderservice\Model\OrderLineItems.class
+com\aplicationMicroservice\orderservice\Controller\controller.class
 com\aplicationMicroservice\orderservice\dto\InventoryResponse$InventoryResponseBuilder.class
 com\aplicationMicroservice\orderservice\Config\WebClientConfiguration.class
+com\aplicationMicroservice\orderservice\Repository\OrderRepository.class
 com\aplicationMicroservice\orderservice\Config\SecurityConfig.class
+com\aplicationMicroservice\orderservice\dto\OrderLineItemsDto.class
+com\aplicationMicroservice\orderservice\dto\OrderRequest.class
+com\aplicationMicroservice\orderservice\Service\OrderService.class
+com\aplicationMicroservice\orderservice\OrderServiceApplication.class
+com\aplicationMicroservice\orderservice\Model\OrderLineItems$OrderLineItemsBuilder.class
